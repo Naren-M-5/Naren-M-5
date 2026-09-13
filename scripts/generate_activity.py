@@ -7,16 +7,32 @@ from pathlib import Path
 
 USER = "Naren-M-5"
 OUT = Path("assets/build-activity.svg")
-GOKU_FILE = Path("assets/goku.png")
 TOKEN = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
 
 if not TOKEN:
     raise SystemExit("Missing GH_TOKEN or GITHUB_TOKEN")
 
-if not GOKU_FILE.exists():
-    raise SystemExit("Missing assets/goku.png")
+GOKU_CANDIDATES = [
+    Path("assets/goku.png"),
+    Path("assets/goku.jpg"),
+    Path("assets/goku.jpeg"),
+    Path("assets/goku.webp"),
+]
+GOKU_FILE = next((p for p in GOKU_CANDIDATES if p.exists()), None)
 
-GOKU_URI = "data:image/png;base64," + base64.b64encode(GOKU_FILE.read_bytes()).decode("ascii")
+if not GOKU_FILE:
+    raise SystemExit(
+        "Missing Goku image. Upload one of: assets/goku.png, assets/goku.jpg, assets/goku.jpeg, assets/goku.webp"
+    )
+
+mime_by_suffix = {
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".webp": "image/webp",
+}
+GOKU_MIME = mime_by_suffix[GOKU_FILE.suffix.lower()]
+GOKU_URI = f"data:{GOKU_MIME};base64," + base64.b64encode(GOKU_FILE.read_bytes()).decode("ascii")
 
 now = datetime.now(timezone.utc)
 start = now - timedelta(days=364)
