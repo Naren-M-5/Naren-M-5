@@ -7,16 +7,18 @@ from pathlib import Path
 
 USER = "Naren-M-5"
 OUT = Path("assets/build-activity.svg")
-GOKU_FILE = Path("assets/goku.png")
+GOKU_FILES = (Path("assets/goku.png"), Path("goku.png"))
 TOKEN = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
 
 if not TOKEN:
     raise SystemExit("Missing GH_TOKEN or GITHUB_TOKEN")
 
-if not GOKU_FILE.exists():
-    raise SystemExit("Missing assets/goku.png")
-
-GOKU_URI = "data:image/png;base64," + base64.b64encode(GOKU_FILE.read_bytes()).decode("ascii")
+GOKU_FILE = next((path for path in GOKU_FILES if path.exists()), None)
+if GOKU_FILE is None:
+    GOKU_URI = None
+    print("Warning: missing goku.png asset; rendering without avatar image")
+else:
+    GOKU_URI = "data:image/png;base64," + base64.b64encode(GOKU_FILE.read_bytes()).decode("ascii")
 
 now = datetime.now(timezone.utc)
 start = now - timedelta(days=364)
@@ -205,11 +207,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGH
   <animate attributeName="opacity" values="1;.25;1" dur="1.25s" repeatCount="indefinite"/>
 </circle>
 
-<g clip-path="url(#photoClip)">
+{f'''<g clip-path="url(#photoClip)">
   <image href="{GOKU_URI}" x="-10" y="70" width="340" height="280" preserveAspectRatio="xMidYMid slice">
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 2;0 0" dur="2.6s" repeatCount="indefinite"/>
   </image>
-</g>
+</g>''' if GOKU_URI else ""}
 
 <circle cx="{SOURCE_X}" cy="{CENTER_Y}" r="10" fill="#fff" filter="url(#big)">
   <animate attributeName="r" values="8;8;25;18;18;8" keyTimes="0;.04;{kt(1.20)};{kt(SWEEP_START)};{kt(RESTORE_START)};1" dur="8s" repeatCount="indefinite"/>
