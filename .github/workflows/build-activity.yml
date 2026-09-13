@@ -9,6 +9,10 @@ on:
       - "scripts/generate_activity.py"
       - ".github/workflows/build-activity.yml"
       - "README.md"
+      - "assets/goku.png"
+      - "assets/goku.jpg"
+      - "assets/goku.jpeg"
+      - "assets/goku.webp"
 
 permissions:
   contents: write
@@ -19,10 +23,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
