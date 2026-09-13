@@ -2,10 +2,13 @@ name: Generate Build Activity
 
 on:
   workflow_dispatch:
-
   schedule:
-    # 00:00 IST = 18:30 UTC
     - cron: "30 18 * * *"
+  push:
+    paths:
+      - "scripts/generate_activity.py"
+      - "assets/goku.svg"
+      - ".github/workflows/build-activity.yml"
 
 permissions:
   contents: write
@@ -15,32 +18,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Generate animated build activity
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/generate_activity.py
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/generate_activity.py
 
       - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add assets/build-activity.svg
-
           if git diff --cached --quiet; then
             echo "No contribution changes."
             exit 0
           fi
-
           git commit -m "chore: update build activity"
           git push
