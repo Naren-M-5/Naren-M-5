@@ -26,10 +26,22 @@ Currently focused on **AI/ML**, **Software Engineering**, **AI Agents**, **DSA**
 
 <table>
 <tr>
-<td align="center" width="25%"><b>AI/ML</b><br><sub>Intelligent systems, agents, automation</sub></td>
-<td align="center" width="25%"><b>Software</b><br><sub>Web apps, APIs, backend systems</sub></td>
-<td align="center" width="25%"><b>Problem Solving</b><br><sub>DSA, algorithms, optimization</sub></td>
-<td align="center" width="25%"><b>Building</b><br><sub>Ideas into shipped products</sub></td>
+<td align="center" width="25%">
+<b>AI/ML</b><br>
+<sub>Intelligent systems, agents, automation</sub>
+</td>
+<td align="center" width="25%">
+<b>Software</b><br>
+<sub>Web apps, APIs, backend systems</sub>
+</td>
+<td align="center" width="25%">
+<b>Problem Solving</b><br>
+<sub>DSA, algorithms, optimization</sub>
+</td>
+<td align="center" width="25%">
+<b>Building</b><br>
+<sub>Ideas into shipped products</sub>
+</td>
 </tr>
 </table>
 
@@ -91,6 +103,7 @@ THINK → BUILD → BREAK → DEBUG → SHIP → REPEAT
 <td width="50%" valign="top">
 
 ### PrepWise AI
+
 AI-powered exam preparation assistant built to make studying sharper, faster and more structured.
 
 `TypeScript` `AI` `Web App` `Vercel`
@@ -102,6 +115,7 @@ AI-powered exam preparation assistant built to make studying sharper, faster and
 <td width="50%" valign="top">
 
 ### ArenaFlow AI
+
 Smart fan experience platform using AI and Firebase to improve event and arena engagement.
 
 `React` `Firebase` `Gemini` `AI`
@@ -115,6 +129,7 @@ Smart fan experience platform using AI and Firebase to improve event and arena e
 <td width="50%" valign="top">
 
 ### AI Career Copilot
+
 Agentic career platform designed to help users plan, improve and move smarter toward their goals.
 
 `AI Agents` `TypeScript` `Career Tech` `Vercel`
@@ -126,6 +141,7 @@ Agentic career platform designed to help users plan, improve and move smarter to
 <td width="50%" valign="top">
 
 ### Support Triage Agent
+
 Offline terminal-based support triage system that classifies, routes and prioritizes support issues.
 
 `Python` `Automation` `CLI` `Agentic Workflow`
@@ -149,6 +165,7 @@ Offline terminal-based support triage system that classifies, routes and priorit
 <td width="50%" align="center">
 
 ### LeetCode
+
 <img src="https://img.shields.io/badge/ACTIVE%20PRACTICE-F97316?style=for-the-badge&logo=leetcode&logoColor=white" />
 
 `DSA` `Algorithms` `Problem Solving`
@@ -159,6 +176,7 @@ Offline terminal-based support triage system that classifies, routes and priorit
 <td width="50%" align="center">
 
 ### Codeforces
+
 <img src="https://img.shields.io/badge/STARTING%20SOON-2563EB?style=for-the-badge&logo=codeforces&logoColor=white" />
 
 `Competitive Programming` `Contests` `Optimization`
@@ -181,15 +199,7 @@ SOLVE → LEARN → OPTIMIZE
 
 <div align="center">
 
-## ⚡ BUILD ACTIVITY
-
-<p>Every contribution fuels a bigger tomorrow.</p>
-
-<br>
-
 <img src="./assets/build-activity.svg" width="100%" alt="Naren M GitHub Build Activity">
-
-<br>
 
 </div>
 
