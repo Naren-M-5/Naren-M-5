@@ -1,35 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+
+  <rect width="1000" height="300" rx="18" fill="#0d1117"/>
+
+  <text x="40" y="42"
+        font-family="monospace"
+        font-size="16"
+        font-weight="700"
+        fill="#8b949e">
+    NAREN // BUILD SYSTEM
+  </text>
+
+  <text x="865" y="42"
+        font-family="monospace"
+        font-size="13"
+        fill="#22c55e">
+    ACTIVE
+  </text>
+
+  <circle cx="950" cy="35" r="6" fill="#22c55e">
+    <animate attributeName="opacity"
+             values="1;0.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- CONTRIBUTION GRID -->
+
+  <g transform="translate(90,85)">
+
+    <g fill="#161b22" stroke="#30363d">
+
+      <rect x="0" y="0" width="16" height="16" rx="3"/>
+      <rect x="24" y="0" width="16" height="16" rx="3"/>
+      <rect x="48" y="0" width="16" height="16" rx="3"/>
+      <rect x="72" y="0" width="16" height="16" rx="3"/>
+      <rect x="96" y="0" width="16" height="16" rx="3"/>
+      <rect x="120" y="0" width="16" height="16" rx="3"/>
+      <rect x="144" y="0" width="16" height="16" rx="3"/>
+      <rect x="168" y="0" width="16" height="16" rx="3"/>
+      <rect x="192" y="0" width="16" height="16" rx="3"/>
+      <rect x="216" y="0" width="16" height="16" rx="3"/>
+      <rect x="240" y="0" width="16" height="16" rx="3"/>
+      <rect x="264" y="0" width="16" height="16" rx="3"/>
+
+      <rect x="0" y="24" width="16" height="16" rx="3"/>
+      <rect x="24" y="24" width="16" height="16" rx="3"/>
+      <rect x="48" y="24" width="16" height="16" rx="3"/>
+      <rect x="72" y="24" width="16" height="16" rx="3"/>
+      <rect x="96" y="24" width="16" height="16" rx="3"/>
+      <rect x="120" y="24" width="16" height="16" rx="3"/>
+      <rect x="144" y="24" width="16" height="16" rx="3"/>
+      <rect x="168" y="24" width="16" height="16" rx="3"/>
+      <rect x="192" y="24" width="16" height="16" rx="3"/>
+      <rect x="216" y="24" width="16" height="16" rx="3"/>
+      <rect x="240" y="24" width="16" height="16" rx="3"/>
+      <rect x="264" y="24" width="16" height="16" rx="3"/>
+
+      <rect x="0" y="48" width="16" height="16" rx="3"/>
+      <rect x="24" y="48" width="16" height="16" rx="3"/>
+      <rect x="48" y="48" width="16" height="16" rx="3"/>
+      <rect x="72" y="48" width="16" height="16" rx="3"/>
+      <rect x="96" y="48" width="16" height="16" rx="3"/>
+      <rect x="120" y="48" width="16" height="16" rx="3"/>
+      <rect x="144" y="48" width="16" height="16" rx="3"/>
+      <rect x="168" y="48" width="16" height="16" rx="3"/>
+      <rect x="192" y="48" width="16" height="16" rx="3"/>
+      <rect x="216" y="48" width="16" height="16" rx="3"/>
+      <rect x="240" y="48" width="16" height="16" rx="3"/>
+      <rect x="264" y="48" width="16" height="16" rx="3"/>
+
+    </g>
+
+    <g fill="#2563eb">
+
+      <rect x="24" y="0" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="72" y="24" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin=".3s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="120" y="48" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin=".6s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="168" y="0" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin=".9s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="216" y="24" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="264" y="48" width="16" height="16" rx="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+
+    <!-- BOT -->
+
+    <g>
+      <circle cx="8" cy="90" r="18" fill="#7c3aed"/>
+      <circle cx="2" cy="86" r="3" fill="#ffffff"/>
+      <circle cx="14" cy="86" r="3" fill="#ffffff"/>
+      <rect x="-1" y="95" width="18" height="3" rx="1.5" fill="#ffffff"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;275 0;275 0;0 0"
+        keyTimes="0;0.45;0.65;1"
+        dur="7s"
+        repeatCount="indefinite"/>
+    </g>
+
+  </g>
+
+  <!-- DATA FLOW -->
+
+  <line x1="420" y1="118"
+        x2="585" y2="118"
+        stroke="#38bdf8"
+        stroke-width="2"
+        stroke-dasharray="8 8">
+    <animate attributeName="stroke-dashoffset"
+             values="32;0"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </line>
+
+  <polygon points="585,118 575,112 575,124" fill="#38bdf8"/>
+
+  <!-- NETWORK -->
+
+  <g stroke="#7c3aed" stroke-width="2" fill="none">
+    <line x1="650" y1="92" x2="710" y2="72"/>
+    <line x1="650" y1="92" x2="710" y2="120"/>
+    <line x1="710" y1="72" x2="770" y2="95"/>
+    <line x1="710" y1="120" x2="770" y2="95"/>
+    <line x1="770" y1="95" x2="830" y2="72"/>
+    <line x1="770" y1="95" x2="830" y2="120"/>
+  </g>
+
+  <g fill="#38bdf8">
+
+    <circle cx="650" cy="92" r="7">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="710" cy="72" r="7">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2s" begin=".25s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="710" cy="120" r="7">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2s" begin=".5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="770" cy="95" r="8">
+      <animate attributeName="r" values="6;11;6" dur="2s" begin=".75s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="830" cy="72" r="7">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="830" cy="120" r="7">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.25s" repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
   <!-- STATUS -->
 
-  <text x="500"
-        y="190"
+  <text x="500" y="190"
         text-anchor="middle"
         font-family="monospace"
         font-size="15"
         font-weight="600"
-        fill="#8b949e"
-        opacity="0">
-
+        fill="#8b949e">
     ANALYZING COMMITS...
-
     <animate attributeName="opacity"
-             values="1;1;0;0;0"
-             keyTimes="0;0.28;0.32;0.99;1"
+             values="1;1;0;0"
+             keyTimes="0;0.28;0.32;1"
              dur="7s"
              repeatCount="indefinite"/>
   </text>
 
-
-  <text x="500"
-        y="190"
+  <text x="500" y="190"
         text-anchor="middle"
         font-family="monospace"
         font-size="15"
         font-weight="600"
         fill="#38bdf8"
         opacity="0">
-
     CONNECTING NODES...
-
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.32;0.36;0.62;0.66;1"
@@ -37,21 +203,38 @@
              repeatCount="indefinite"/>
   </text>
 
-
-  <text x="500"
-        y="190"
+  <text x="500" y="190"
         text-anchor="middle"
         font-family="monospace"
         font-size="15"
         font-weight="700"
         fill="#22c55e"
         opacity="0">
-
     SYSTEM // ACTIVE
-
     <animate attributeName="opacity"
              values="0;0;1;1;0"
              keyTimes="0;0.66;0.70;0.94;1"
              dur="7s"
              repeatCount="indefinite"/>
   </text>
+
+  <!-- PIPELINE -->
+
+  <text x="500" y="245"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="16"
+        font-weight="700"
+        fill="#c9d1d9">
+    THINK - BUILD - DEBUG - SHIP
+  </text>
+
+  <text x="500" y="275"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="12"
+        fill="#6e7681">
+    every commit becomes part of the system
+  </text>
+
+</svg>
