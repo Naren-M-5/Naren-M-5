@@ -199,7 +199,19 @@ SOLVE → LEARN → OPTIMIZE
 
 <div align="center">
 
-<img src="./assets/build-activity.svg" width="100%" alt="Naren M GitHub Build Activity">
+## ⚡ CONTRIBUTION BEAM
+
+<p>
+Every contribution fuels a bigger tomorrow.
+</p>
+
+<br>
+
+<img src="./assets/build-activity.svg"
+     width="100%"
+     alt="Naren M GitHub Build Activity" />
+
+<br>
 
 </div>
 
@@ -209,12 +221,39 @@ SOLVE → LEARN → OPTIMIZE
 
 ## 📊 GITHUB STATS
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Naren-M-5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=7C3AED&text_color=C9D1D9" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Naren-M-5&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=7C3AED&currStreakLabel=38BDF8" alt="GitHub Streak" />
+<p>
+A quick snapshot of my coding activity and language usage.
+</p>
 
-<br><br>
+<br>
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naren-M-5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img
+  src="https://github-readme-stats.vercel.app/api?username=Naren-M-5&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9&icon_color=7C3AED&ring_color=38BDF8"
+  alt="GitHub Stats"
+  width="100%" />
+
+</td>
+<td width="50%" align="center">
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naren-M-5&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9"
+  alt="Top Languages"
+  width="100%" />
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img
+  src="https://streak-stats.demolab.com?user=Naren-M-5&theme=transparent&hide_border=true&ring=38BDF8&fire=7C3AED&currStreakLabel=38BDF8&sideNums=60A5FA&currStreakNum=A78BFA&sideLabels=C9D1D9&dates=94A3B8"
+  alt="GitHub Streak"
+  width="70%" />
 
 </div>
 
