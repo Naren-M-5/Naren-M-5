@@ -232,7 +232,7 @@ A quick snapshot of my coding activity and language usage.
 <td width="50%" align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=Naren-M-5&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9&icon_color=7C3AED&ring_color=38BDF8"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Naren-M-5&theme=github_dark"
   alt="GitHub Stats"
   width="100%" />
 
@@ -240,7 +240,7 @@ A quick snapshot of my coding activity and language usage.
 <td width="50%" align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naren-M-5&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Naren-M-5&theme=github_dark"
   alt="Top Languages"
   width="100%" />
 
@@ -251,9 +251,9 @@ A quick snapshot of my coding activity and language usage.
 <br>
 
 <img
-  src="https://streak-stats.demolab.com?user=Naren-M-5&theme=transparent&hide_border=true&ring=38BDF8&fire=7C3AED&currStreakLabel=38BDF8&sideNums=60A5FA&currStreakNum=A78BFA&sideLabels=C9D1D9&dates=94A3B8"
-  alt="GitHub Streak"
-  width="70%" />
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Naren-M-5&theme=github_dark"
+  alt="GitHub Profile Details"
+  width="100%" />
 
 </div>
 
