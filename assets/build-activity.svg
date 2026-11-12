@@ -185,7 +185,14 @@
   <rect x="929.00" y="155.00" width="11" height="11" rx="2" fill="#ffffff" opacity="0" filter="url(#glow)">
     <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.65875;0.66875;0.69625;1" dur="8.0s" repeatCount="indefinite"/>
   </rect>
-</g><rect x="930.00" y="169.00" width="9" height="9" rx="2" fill="#161b22" stroke="#30363d" stroke-width=".5"/><rect x="930.00" y="182.00" width="9" height="9" rx="2" fill="#161b22" stroke="#30363d" stroke-width=".5"/></g>
+</g><rect x="930.00" y="169.00" width="9" height="9" rx="2" fill="#161b22" stroke="#30363d" stroke-width=".5"/><g>
+  <rect x="930.00" y="182.00" width="9" height="9" rx="2" fill="#40c463" stroke="#38bdf8" stroke-width=".45">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.66875;0.69625;0.88125;0.93125;1" dur="8.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="929.00" y="181.00" width="11" height="11" rx="2" fill="#ffffff" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.65875;0.66875;0.69625;1" dur="8.0s" repeatCount="indefinite"/>
+  </rect>
+</g></g>
 <g filter="url(#glow)"><circle cx="430.08" cy="173.50" r="1.7" fill="#67e8f9" opacity="0">
   <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.25012;0.25512;0.30262;1" dur="8.0s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="430.08;430.08;446.08;453.08" keyTimes="0;0.25012;0.30262;1" dur="8.0s" repeatCount="indefinite"/>
@@ -226,13 +233,13 @@
 
 <rect x="980" y="120" width="180" height="167" rx="10" fill="#07111f" stroke="#0ea5e9"/>
 <text x="997" y="150" font-family="monospace" font-size="9" fill="#94a3b8">ACTIVE DAYS</text>
-<text x="1140" y="150" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#22d3ee">19</text>
+<text x="1140" y="150" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#22d3ee">20</text>
 
 <text x="997" y="190" font-family="monospace" font-size="9" fill="#94a3b8">CONTRIBUTIONS</text>
-<text x="1140" y="190" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#60a5fa">114</text>
+<text x="1140" y="190" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#60a5fa">116</text>
 
 <text x="997" y="230" font-family="monospace" font-size="9" fill="#94a3b8">CURRENT STREAK</text>
-<text x="1140" y="230" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#a78bfa">0</text>
+<text x="1140" y="230" text-anchor="end" font-family="monospace" font-size="14" font-weight="700" fill="#a78bfa">1</text>
 
 <text x="997" y="264" font-family="monospace" font-size="10" font-weight="700" fill="#f59e0b">KEEP BUILDING</text>
 
